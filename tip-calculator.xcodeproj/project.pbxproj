@@ -14,6 +14,7 @@
 		EE561CAB1B268EAB00B479FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE561CAA1B268EAB00B479FC /* Images.xcassets */; };
 		EE561CAE1B268EAB00B479FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE561CAC1B268EAB00B479FC /* LaunchScreen.xib */; };
 		EE561CBA1B268EAB00B479FC /* tip_calculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE561CB91B268EAB00B479FC /* tip_calculatorTests.m */; };
+		EE561CD81B26B59400B479FC /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE561CD71B26B59400B479FC /* TipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		EE561CB31B268EAB00B479FC /* tip-calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tip-calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE561CB81B268EAB00B479FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE561CB91B268EAB00B479FC /* tip_calculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tip_calculatorTests.m; sourceTree = "<group>"; };
+		EE561CD71B26B59400B479FC /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				EE561CA21B268EAB00B479FC /* AppDelegate.m */,
 				EE561CA41B268EAB00B479FC /* TipViewController.h */,
 				EE561CA51B268EAB00B479FC /* TipViewController.m */,
+				EE561CD71B26B59400B479FC /* TipViewController.xib */,
 				EE561CA71B268EAB00B479FC /* Main.storyboard */,
 				EE561CAA1B268EAB00B479FC /* Images.xcassets */,
 				EE561CAC1B268EAB00B479FC /* LaunchScreen.xib */,
@@ -201,6 +204,7 @@
 			files = (
 				EE561CA91B268EAB00B479FC /* Main.storyboard in Resources */,
 				EE561CAE1B268EAB00B479FC /* LaunchScreen.xib in Resources */,
+				EE561CD81B26B59400B479FC /* TipViewController.xib in Resources */,
 				EE561CAB1B268EAB00B479FC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
