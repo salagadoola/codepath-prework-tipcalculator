@@ -7,7 +7,6 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TipViewController" colorLabel="IBBuiltInLabel-Blue">
             <connections>
                 <outlet property="billTextField" destination="wP3-mq-ceF" id="baL-yC-fA9"/>
-                <outlet property="onTap" destination="AN7-Jl-76L" id="9QE-J9-aJW"/>
                 <outlet property="tipControl" destination="7qR-fP-OH9" id="RCZ-QU-4ap"/>
                 <outlet property="tipLabel" destination="BAT-SG-aPy" id="R2p-9S-pVf"/>
                 <outlet property="totalLabel" destination="gSo-z6-ChB" id="mig-RR-9Tq"/>
