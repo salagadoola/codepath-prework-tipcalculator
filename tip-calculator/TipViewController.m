@@ -10,6 +10,8 @@
 
 @interface TipViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *billTextField;
+
 @end
 
 @implementation TipViewController
