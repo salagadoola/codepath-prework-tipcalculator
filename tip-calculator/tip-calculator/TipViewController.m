@@ -6,13 +6,13 @@
 //  Copyright (c) 2015年 salagadoola. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "TipViewController.h"
 
-@interface ViewController ()
+@interface TipViewController ()
 
 @end
 
-@implementation ViewController
+@implementation TipViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

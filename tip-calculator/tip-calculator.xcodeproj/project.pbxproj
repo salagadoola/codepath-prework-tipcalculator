@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		EE561CA01B268EAB00B479FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE561C9F1B268EAB00B479FC /* main.m */; };
 		EE561CA31B268EAB00B479FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE561CA21B268EAB00B479FC /* AppDelegate.m */; };
-		EE561CA61B268EAB00B479FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE561CA51B268EAB00B479FC /* ViewController.m */; };
+		EE561CA61B268EAB00B479FC /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE561CA51B268EAB00B479FC /* TipViewController.m */; };
 		EE561CA91B268EAB00B479FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE561CA71B268EAB00B479FC /* Main.storyboard */; };
 		EE561CAB1B268EAB00B479FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE561CAA1B268EAB00B479FC /* Images.xcassets */; };
 		EE561CAE1B268EAB00B479FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE561CAC1B268EAB00B479FC /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		EE561C9F1B268EAB00B479FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE561CA11B268EAB00B479FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE561CA21B268EAB00B479FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE561CA41B268EAB00B479FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE561CA51B268EAB00B479FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE561CA41B268EAB00B479FC /* TipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		EE561CA51B268EAB00B479FC /* TipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
 		EE561CA81B268EAB00B479FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE561CAA1B268EAB00B479FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EE561CAD1B268EAB00B479FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				EE561CA11B268EAB00B479FC /* AppDelegate.h */,
 				EE561CA21B268EAB00B479FC /* AppDelegate.m */,
-				EE561CA41B268EAB00B479FC /* ViewController.h */,
-				EE561CA51B268EAB00B479FC /* ViewController.m */,
+				EE561CA41B268EAB00B479FC /* TipViewController.h */,
+				EE561CA51B268EAB00B479FC /* TipViewController.m */,
 				EE561CA71B268EAB00B479FC /* Main.storyboard */,
 				EE561CAA1B268EAB00B479FC /* Images.xcassets */,
 				EE561CAC1B268EAB00B479FC /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE561CA61B268EAB00B479FC /* ViewController.m in Sources */,
+				EE561CA61B268EAB00B479FC /* TipViewController.m in Sources */,
 				EE561CA31B268EAB00B479FC /* AppDelegate.m in Sources */,
 				EE561CA01B268EAB00B479FC /* main.m in Sources */,
 			);
@@ -414,6 +414,7 @@
 				EE561CBF1B268EAB00B479FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE561CC01B268EAB00B479FC /* Build configuration list for PBXNativeTarget "tip-calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				EE561CC21B268EAB00B479FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
