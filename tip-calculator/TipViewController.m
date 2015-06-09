@@ -15,6 +15,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *totalLabel;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *tipControl;
 
+- (IBAction)onTap:(id)sender;
+
+//- (void)myMethod:(int)param;
+
 @end
 
 @implementation TipViewController
@@ -38,4 +42,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onTap:(id)sender {
+}
 @end

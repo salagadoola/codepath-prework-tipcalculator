@@ -48,6 +48,9 @@
                         <segment title="15%"/>
                         <segment title="20%"/>
                     </segments>
+                    <connections>
+                        <action selector="onTap:" destination="-1" eventType="valueChanged" id="91E-1J-d7s"/>
+                    </connections>
                 </segmentedControl>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip Amount" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDD-sN-yHv">
                     <rect key="frame" x="57" y="167" width="115" height="21"/>
