@@ -44,5 +44,15 @@
 
 - (IBAction)onTap:(id)sender {
     [self.view endEditing:(true)];
+    [self updateValues];
+}
+
+- (void)updateValues {
+    float billAmount = [self.billTextField.text floatValue];
+    NSArray *tipValues = @[@(0.1), @(0.15), @(0.2)];
+    float tipAmount = billAmount * [tipValues[self.tipControl.selectedSegmentIndex] floatValue];
+    float totalAmount = tipAmount + billAmount;
+    self.tipLabel.text = [NSString stringWithFormat:@"%f", tipAmount];
+    self.totalLabel.text = [NSString stringWithFormat:@"%f", totalAmount];
 }
 @end
