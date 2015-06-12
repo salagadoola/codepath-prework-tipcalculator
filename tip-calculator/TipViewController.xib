@@ -7,6 +7,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TipViewController" colorLabel="IBBuiltInLabel-Blue">
             <connections>
                 <outlet property="billTextField" destination="wP3-mq-ceF" id="baL-yC-fA9"/>
+                <outlet property="settingButton" destination="sEf-vJ-B04" id="EhF-ME-ooT"/>
                 <outlet property="tipControl" destination="7qR-fP-OH9" id="RCZ-QU-4ap"/>
                 <outlet property="tipLabel" destination="BAT-SG-aPy" id="R2p-9S-pVf"/>
                 <outlet property="totalLabel" destination="gSo-z6-ChB" id="mig-RR-9Tq"/>
@@ -29,15 +30,6 @@
                         <action selector="onTap:" destination="-1" eventType="valueChanged" id="91E-1J-d7s"/>
                     </connections>
                 </segmentedControl>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKR-Ik-QLY">
-                    <rect key="frame" x="285" y="8" width="57" height="30"/>
-                    <state key="normal" title="Settings">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="onSettingsButton:" destination="-1" eventType="touchUpInside" id="PrI-P4-2Ah"/>
-                    </connections>
-                </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bill" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eit-01-1Dd">
                     <rect key="frame" x="31" y="46" width="24" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -73,6 +65,14 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sEf-vJ-B04">
+                    <rect key="frame" x="-169" y="-7" width="511" height="44"/>
+                    <items>
+                        <navigationItem title="tip calculator" id="RID-J0-970">
+                            <barButtonItem key="rightBarButtonItem" title="Settings" id="QEw-MX-iNm"/>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
             </subviews>
             <color key="backgroundColor" red="0.76967222660000001" green="0.6001047692" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <gestureRecognizers/>
